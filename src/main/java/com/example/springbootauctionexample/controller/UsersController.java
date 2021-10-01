@@ -13,7 +13,7 @@ public class UsersController {
     private UsersService usersService;
 
     @GetMapping("/users")
-    public ResponseEntity<?> getAllAdmins() {
+    public ResponseEntity<?> getAllUsers() {
         return ResponseEntity.ok(usersService.fetchAllUsers());
     }
 
