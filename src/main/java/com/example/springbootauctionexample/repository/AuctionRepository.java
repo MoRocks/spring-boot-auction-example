@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 
-public interface RecordRepository {
-
+public interface AuctionRepository {
     List<Map<String, Object>> findAll();
 }
